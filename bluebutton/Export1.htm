@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>
+
+</title>
+<meta http-equiv="Content-Type" content="text/html;CHARSET=utf-8">
+
+<script type="text/javascript">
+<!--
+
+function ApplyFilter() {
+	var imgName,image,objStr = ApplyFilter.arguments[0];
+	image = document.getElementById (objStr);
+	image.onload = null;
+	imgName = ApplyFilter.arguments[1];
+	if (navigator.platform == "Win32" && navigator.appName == "Microsoft Internet Explorer") {
+		image.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingmethod=scale, src='" + imgName + "' );"
+	}
+	else {
+		image.src = imgName;
+	}
+}
+//-->
+</script>
+<style type="text/css">
+<!-- 
+    a:link {
+        color:blue;
+        text-decoration:underline;
+    }
+    a:active { color:red }
+    a:visited { color:purple }
+    body {
+        background-color:white;
+        color:#393838;
+    }
+    .box1 {
+        width:496px;
+        height:151px;
+    }
+    .box2 {
+        position:absolute;
+        left:22.215px;
+        top:15.843px;
+        width:467px;
+        height:136px;
+    }
+    .box3 {
+        position:absolute;
+        left:471.868px;
+        top:0px;
+        width:23px;
+        height:22px;
+    }
+ -->
+</style>
+</head>
+
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+<table border="0" cellspacing="0" cellpadding="0" align="left">
+    <tr>
+        <td colspan="2"></td><td valign="top" width="1" height="4">
+        <img src="image/qwdspacer.gif" alt="" width="1" height="4" border="0"></td>
+    </tr>
+    <tr>
+        <td colspan="2" valign="top" width="490" height="151">
+        <div class="box1">
+            <img src="image/Picture8_Copy8.gif" alt="" width="496" height="151" 
+            border="0"></div>
+        </td><td valign="top" width="1" height="151">
+        <img src="image/qwdspacer.gif" alt="" width="1" height="151" border=
+        "0"></td>
+    </tr>
+    <tr>
+        <td valign="top" width="7" height="1">
+        <img src="image/qwdspacer.gif" alt="" width="7" height="1" border="0"></td><td 
+        valign="top" width="489" height="1">
+        <img src="image/qwdspacer.gif" alt="" width="489" height="1" border=
+        "0"></td><td valign="top" width="1" height="1">
+        <img src="image/qwdspacer.gif" alt="" width="1" height="1" border="0"></td></tr>
+</table>
+<div class="box2">
+    <img src="image/qwdspacer.gif" alt=
+    "The world needs the do-ers. The thinkers.  The never-take-no-fo" width=
+    "467" height="136" border="0" id="Text7Copy7" onLoad=
+    "ApplyFilter('Text7Copy7','image/Text7_Copy7.png')" name="Text7Copy7"></div>
+<div class="box3">
+    <img src="image/qwdspacer.gif" alt="x" width="23" height="22" border="0" id=
+    "Text6Copy6" onLoad="ApplyFilter('Text6Copy6','image/Text6_Copy6.png')" 
+    name="Text6Copy6"></div>
+
+</body>
+</html>

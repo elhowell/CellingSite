@@ -1,0 +1,278 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "gill sans mt", Arial, Helvetica, sans-serif; 
+}
+img {
+	border: none;
+}
+a {
+	color: #00aeef;
+	text-decoration: none;
+}
+a:hover {
+	color: #525252;
+}
+#pagewrap {
+	width:920px;
+	margin: 15px auto 0 auto;
+	border: 1px solid #acaeb1;
+}
+#header {
+
+}
+#logo {
+	width: 186px;
+	height: 145px;
+	float: left;
+	background: url(../images/logo.gif) no-repeat;
+}
+#headtopright {
+	width: 734px;
+	height: 60px;
+	float: left;
+	background: url(../images/tr-bkgd.gif) repeat-x;
+}
+#headbotright {
+	height:85px;
+	width: 734px;
+	float: left;
+}
+#sitedesc {
+	color:#999;
+	margin-left: 15px;
+	margin-top: 10px;
+	float: left;
+}
+#mainmenu {
+	float: right;
+	margin-top: 39px;
+	font-size: .8em;	
+}
+#maininterior-black {
+padding: 10px 30px;
+	background: url(images/bg.jpg) #000 no-repeat;
+	color: #fff;
+}
+#maininterior-black2 {
+	background: #000;
+	color: #fff;
+}
+#maininterior-black2 h2 {
+	color: #5afc02;
+	font-family: "Gill Sans", Arial, Helviteca;
+	font-size: 16pt;
+}
+#maininterior-black2 h3 {
+	color: #5afc02;
+	font-family: "Gill Sans", Arial, Helviteca;
+	font-size: 12pt;
+}	
+#leftwrap {
+	float: left;
+	width: 368px;
+}
+#leftwrap .left-leftwrap {
+	float: left;
+	width: 184px;
+	
+}
+#leftwrap .right-leftwrap {
+	float:left;
+	width: 184px;
+
+}
+#rightwrap {
+	float: left;
+	width: 552px;
+}
+#rightwrap .left-rightwrap {
+	float: left;
+	width: 184px;
+
+}
+#rightwrap .right-rightwrap {
+	float: left;
+	width: 368px;
+	height: 460px;
+	background: url(../images/bluespine.jpg) no-repeat;
+	
+}
+.wholeft{
+	width:33.3%;
+	height:420px;
+	float: left;
+	background: url(../images/sun.jpg) #000 no-repeat;
+}
+.whocenter {
+	text-align:center;
+	vertical-align:text-bottom;
+	width:33.3%;
+	height:420px;
+	float: left;
+	background-color:#000;
+	color:#FFF;
+}
+.whoright{
+	width:33.3%;
+	height:420px;
+	float: left;
+	background:url(../images/run.jpg) #000 no-repeat;
+}
+#regenleft{
+	color:#FFF;
+	font-family:Helvetica, Arial, sans-serif;
+	position: relative;
+	text-align:right;
+	width:20%;
+	height:900px;	
+	float: left;
+	background:#666;
+}
+#regencenter{
+	width:25%;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#999;
+	height:900px;	
+	float: left;
+	background:#666;
+}
+#regencenter2 {
+	width:25%;
+	font-family:Helvetica, Arial, sans-serif;
+	color:#999;
+	height:900px;	
+	float: left;
+	background:#666;	
+	
+}
+	
+#regenright{
+	width:55%;
+	height:900px;
+	float: left;
+	background:url(../images/bluespine.jpg) #000 no-repeat;
+}
+div.white{
+	color:fff;
+	font-family:helvetica, arial, sans-serif;
+}
+div.green{
+	color:#6C0;
+}
+#homepagegallery {
+	position: relative;
+}
+#homepagegallery a{
+	
+}
+#homepagegallery img {
+	float: left;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.lefthalf {
+	width: 50%;
+	float: left;
+}
+.lefthalf img {
+	border: 10px solid #fff;
+}
+.righthalf {
+	width: 50%;
+	float: left;
+}
+.right {
+
+	text-align:left;
+	width: 60%;
+	float: left;
+ 
+	
+}
+.left {
+	text-align:right;
+	color:#00aeef;
+	padding-top: 40px;
+	text-align:center;
+	width:35%;
+	float:left;
+}
+.rightlink {
+	float:right;
+	padding: 0 10px 10px 0;
+}
+.links{
+	width:25%;
+	text-align:right;
+	margin: 0 0 25px 50px;
+	
+}
+#footer {
+	background-color: #fff;
+	color: #525252;
+}
+#footer p {
+	font-size: 10pt;
+}
+#footertop {
+	width: 100%;
+	padding: 10px 0;
+	color: #fff;
+	background-color: #000;
+}
+#footertop p {
+	text-align: center;
+}
+#footertop a {
+	color: #00aeef;
+	text-decoration: none;
+}
+#footertop a:hover {
+	color: #fff;
+}
+#footerbottom {
+	padding: 10px;
+}
+#footerbottomleft {
+	float: left;
+	width: 50%;
+}
+#footerbottomleft p {
+	width: 300px;
+}
+#footerbottomright {
+	float: left;
+	width: 50%;
+	text-align: right;
+}
+#bluebox1 {
+	position: absolute;
+	z-index: 1000;
+	top: 50px;
+	left: 207px;
+}
+.blueboxtop {
+	background: url(../images/bluebox_01.png) no-repeat;
+	height: 26px;
+	width: 506px;
+}
+.blueboxfield {
+	background: url(../images/bluebox_02.png) repeat-y;
+	width: 506px;
+	color: #fff;
+	padding: 0 35px;
+}
+.blueboxbottom {
+	font-size: 8pt;
+	background: url(../images/bluebox_03.png) no-repeat;
+	height: 25px;
+	width: 506px;
+}
+.blueboxbottom a {
+	color: #efefef;
+	float: right;
+	margin-right: 35px;
+	margin-bottom: 2px;
+}
